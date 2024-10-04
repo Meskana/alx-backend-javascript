@@ -1,4 +1,4 @@
-function getResponseFromAPI() {
+module.exports = function getResponseFromAPI() {
   return new Promise((resolve, reject) => {
     const sucess = true;
     if (sucess) {
@@ -7,4 +7,4 @@ function getResponseFromAPI() {
       reject("404!");
     }
   });
-}
+};
