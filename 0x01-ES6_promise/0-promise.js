@@ -1,4 +1,6 @@
-module.exports = function getResponseFromAPI() {
+//Return a Promise
+
+exports = function getResponseFromAPI() {
   return new Promise((resolve, reject) => {
     const sucess = true;
     if (sucess) {
