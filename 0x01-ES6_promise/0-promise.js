@@ -1,5 +1,3 @@
-//Return a Promise
-
 exports = function getResponseFromAPI() {
   return new Promise((resolve, reject) => {
     const sucess = true;
