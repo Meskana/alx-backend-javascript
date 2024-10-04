@@ -1,7 +1,6 @@
-export default function getResponseFromAPI() {
+export default function getFullResponseFromAPI(success) {
   return new Promise((resolve, reject) => {
-    const sucess = true;
-    if (sucess) {
+    if (success) {
       resolve(sucess);
     } else {
       reject("404!");
